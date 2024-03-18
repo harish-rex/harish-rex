@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins& display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem .5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:palegreen !important;
+}
+#navbarSupportedContent a{
+    color :azure;
+}
+#navbarSupportedContent a:hover{
+    color:palevioletred;
+}
+#navbarSupportedContent button{
+    background: white;
+    border-radius: 10px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Home{
+    background: url(jii.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 100px;
+    color:pink;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px pink,
+                 0px 2px 0px pink,
+                 0px 3px 0px pink,
+                 0px 4px 0px pink,
+                 0px 5px 0px pink,
+                 0px 6px 0px pink,
+                 0px 7px 0px pink,;
+                 
+}
+#Home p{
+    font-size: 18px;
+    color: aquamarine;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+}
+.Signin{
+    background: darkorange !important;
+
+}
+#About{
+    background: greenyellow;
+}
+.img-fluid{
+    margin: 100px 100px 100px 100px;
+}
+#Products{
+    background:mediumorchid !important;
+}
+#Products h1{
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+}
+#Products img{
+    height: 200px;
+    width: 354px;
+}
+.card{
+    background: powderblue !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+#Contact img{
+    height: 70%;
+}
+#Contact input{
+    margin: 8px 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#Contact textarea{
+    margin: 1px 0px;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
